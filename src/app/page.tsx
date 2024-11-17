@@ -5,10 +5,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Card, CardTitle } from "@/components/ui/card"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { ChevronRight } from 'lucide-react'
+// import { ChevronRight } from 'lucide-react' // 사용되지 않음
 import { curriculumData } from '@/data/curriculum' // 모듈로서 import
-import { Button } from "@/components/ui/button"
-import { Menu, X } from 'lucide-react'
+// import { Button } from "@/components/ui/button" // 사용되지 않음
+// import { Menu, X } from 'lucide-react' // 사용되지 않음
 import Header from "@/components/header" // @header.tsx 파일에서 Header 컴포넌트를 가져옴
 
 export default function StructuredCurriculum() {
