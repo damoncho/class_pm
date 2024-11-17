@@ -72,10 +72,9 @@ export default function StructuredCurriculum() {
                               />
                             </div>
                             <div className="flex-grow">
-                              <CardTitle className="text-lg mb-2">
+                              <CardTitle className="text-base font-normal mb-2">
                                 {course.title}
                               </CardTitle>
-
                             </div>
                           </div>
                         </Card>
