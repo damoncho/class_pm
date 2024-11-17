@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="bg-white shadow-sm">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/" className="flex items-center" onClick={() => window.location.reload()}>
+        <Link href="https://damon.im/" className="flex items-center">
           <span className="ml-2 text-xl font-bold">데이먼의 PM 일지</span>
         </Link>
         <nav className="flex space-x-4">
