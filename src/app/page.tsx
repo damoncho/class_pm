@@ -38,7 +38,7 @@ export default function StructuredCurriculum() {
                 priority
                 sizes="(max-width: 640px) 100vw, 640px"
               />
-              <span className="absolute top-2 right-2 bg-black bg-opacity-50 text-white text-sm px-2 py-1 rounded">인프런 수강현황</span>
+              <span className="absolute top-2 right-2 bg-black bg-opacity-50 text-white text-sm px-2 py-1 rounded">인프런 수강기록</span>
             </div>
           </Link>
           <Accordion type="multiple" value={expandedSections} className="space-y-4">
