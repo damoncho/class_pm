@@ -8,7 +8,7 @@ const Header = () => {
         <Link href="/" className="flex items-center" onClick={() => window.location.reload()}>
           <span className="ml-2 text-xl font-bold">데이먼의 PM 일지</span>
         </Link>
-        <nav className="hidden md:flex space-x-4">
+        <nav className="flex space-x-4">
           <Link href="https://damon.im/" className="text-gray-600 hover:text-gray-900">블로그</Link>
           <Link href="https://damon.im/pkm-class/" className="text-gray-600 hover:text-gray-900">옵시디언 클래스</Link>
         </nav>
