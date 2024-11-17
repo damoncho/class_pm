@@ -2,7 +2,6 @@ import { useState } from 'react'
 import Link from 'next/link'
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
     <header className="bg-white shadow-sm">
@@ -14,7 +13,7 @@ const Header = () => {
           <Link href="https://damon.im/" className="text-gray-600 hover:text-gray-900">블로그</Link>
           <Link href="https://damon.im/pkm-class/" className="text-gray-600 hover:text-gray-900">옵시디언 클래스</Link>
         </nav>
-      </div> {/* 닫는 태그 추가 */}
+      </div>
     </header>
   )
 }
