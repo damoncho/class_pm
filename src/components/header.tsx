@@ -16,22 +16,7 @@ const Header = () => {
           <Link href="https://damon.im/" className="text-gray-600 hover:text-gray-900">블로그</Link>
           <Link href="https://damon.im/pkm-class/" className="text-gray-600 hover:text-gray-900">옵시디언 클래스</Link>
         </nav>
-        <Button
-          className="md:hidden"
-          variant="ghost"
-          size="icon"
-          aria-label="메뉴 열기"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        >
-          {isMenuOpen ? <X /> : <Menu />}
-        </Button>
-      </div>
-      {isMenuOpen && (
-        <nav className="md:hidden bg-white py-2">
-          <Link href="https://damon.im" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">블로그</Link>
-          <Link href="https://damon.im/pkm-class/" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">옵시디언 클래스</Link>
-        </nav>
-      )}
+      </div> {/* 닫는 태그 추가 */}
     </header>
   )
 }
