@@ -223,73 +223,73 @@ export const curriculumData = [
   },
   {
     id: "section-6",
-    title: "비즈니스 분석",
-    courses: [
-      {
-        id: "course-6-1",
-        title: "래디쉬 - 글로벌 웹소설 플랫폼",
-        thumbnailUrl: "https://damon.im/content/images/size/w1200/2024/05/76-billion-won-funding-global-web-novel-platform-radish-business-analysis.jpeg",
-        landingUrl: "https://damon.im/76-billion-won-funding-global-web-novel-platform-radish-business-analysis/"
-      },
-      {
-        id: "course-6-2",
-        title: "트렌비 - 전 세계 명품 최저가 판매",
-        thumbnailUrl: "https://damon.im/content/images/size/w1200/2024/05/global-luxury-goods-lowest-price-luxury-commerce-trenbe-business-analysis.jpeg",
-        landingUrl: "https://damon.im/global-luxury-goods-lowest-price-luxury-commerce-trenbe-business-analysis/"
-      },
-      {
-        id: "course-6-3",
-        title: "칸투칸 - 상품 원가를 공개하는 쇼핑몰",
-        thumbnailUrl: "https://damon.im/content/images/size/w1200/2024/05/product-cost-transparent-shopping-mall-kantukan-business-analysis.webp",
-        landingUrl: "https://damon.im/product-cost-transparent-shopping-mall-kantukan-business-analysis/"
-      },
-      {
-        id: "course-6-4",
-        title: "JustWatch - 전 세계 영화/드라마 추천 플랫폼",
-        thumbnailUrl: "https://damon.im/content/images/size/w1200/2024/05/justwatch-business-analysis.jpeg",
-        landingUrl: "https://damon.im/justwatch-business-analysis/"
-      },
-      {
-        id: "course-6-5",
-        title: "데일리호텔 - 호텔 타임커머스 (야놀자 인수 전)",
-        thumbnailUrl: "https://damon.im/content/images/size/w1200/2024/05/business-analysis-dailyhotel.webp",
-        landingUrl: "https://damon.im/business-analysis-dailyhotel/"
-      },
-      {
-        id: "course-6-6",
-        title: "넷플릭스 - 영화 추천 알고리즘 & 성장 과정!",
-        thumbnailUrl: "https://damon.im/content/images/size/w1200/2024/05/netflix-movie-recommendation-algorithm-business-model.jpeg",
-        landingUrl: "https://damon.im/netflix-movie-recommendation-algorithm-business-model/"
-      }
-    ]
-  },
-  {
-    id: "section-7",
     title: "기획자 인사이트",
     courses: [
       {
-        id: "course-7-1",
+        id: "course-6-1",
         title: "크리에이티브한 기획자가 되는 법! 기획은 2형식이다.",
         thumbnailUrl: "https://damon.im/content/images/size/w1200/2024/05/becoming-creative-planner-planning-follows-two-forms.jpeg",
         landingUrl: "https://damon.im/becoming-creative-planner-planning-follows-two-forms/"
       },
       {
-        id: "course-7-2",
+        id: "course-6-2",
         title: "성장하는 기획자의 좋은 습관 - 정보수집 편",
         thumbnailUrl: "https://damon.im/content/images/size/w1200/2024/05/growing-planner-good-habits-information-gathering.webp",
         landingUrl: "https://damon.im/growing-planner-good-habits-information-gathering/"
       },
       {
-        id: "course-7-3",
+        id: "course-6-3",
         title: "발표 울렁증을 극복한 개인적인 팁!",
         thumbnailUrl: "https://damon.im/content/images/size/w1200/2024/05/public-speaking-anxiety-overcoming-personal-tips.jpeg",
         landingUrl: "https://damon.im/public-speaking-anxiety-overcoming-personal-tips/"
       },
       {
-        id: "course-7-4",
+        id: "course-6-4",
         title: "기획자 포트폴리오 이렇게 바꿔보세요!",
         thumbnailUrl: "https://damon.im/content/images/size/w1200/2024/05/planner-portfolio-revamp.webp",
         landingUrl: "https://damon.im/planner-portfolio-revamp/"
+      }
+    ]
+  },
+  {
+    id: "section-7",
+    title: "비즈니스 분석",
+    courses: [
+      {
+        id: "course-7-1",
+        title: "래디쉬 - 글로벌 웹소설 플랫폼",
+        thumbnailUrl: "https://damon.im/content/images/size/w1200/2024/05/76-billion-won-funding-global-web-novel-platform-radish-business-analysis.jpeg",
+        landingUrl: "https://damon.im/76-billion-won-funding-global-web-novel-platform-radish-business-analysis/"
+      },
+      {
+        id: "course-7-2",
+        title: "트렌비 - 전 세계 명품 최저가 판매",
+        thumbnailUrl: "https://damon.im/content/images/size/w1200/2024/05/global-luxury-goods-lowest-price-luxury-commerce-trenbe-business-analysis.jpeg",
+        landingUrl: "https://damon.im/global-luxury-goods-lowest-price-luxury-commerce-trenbe-business-analysis/"
+      },
+      {
+        id: "course-7-3",
+        title: "칸투칸 - 상품 원가를 공개하는 쇼핑몰",
+        thumbnailUrl: "https://damon.im/content/images/size/w1200/2024/05/product-cost-transparent-shopping-mall-kantukan-business-analysis.webp",
+        landingUrl: "https://damon.im/product-cost-transparent-shopping-mall-kantukan-business-analysis/"
+      },
+      {
+        id: "course-7-4",
+        title: "JustWatch - 전 세계 영화/드라마 추천 플랫폼",
+        thumbnailUrl: "https://damon.im/content/images/size/w1200/2024/05/justwatch-business-analysis.jpeg",
+        landingUrl: "https://damon.im/justwatch-business-analysis/"
+      },
+      {
+        id: "course-7-5",
+        title: "데일리호텔 - 호텔 타임커머스 (야놀자 인수 전)",
+        thumbnailUrl: "https://damon.im/content/images/size/w1200/2024/05/business-analysis-dailyhotel.webp",
+        landingUrl: "https://damon.im/business-analysis-dailyhotel/"
+      },
+      {
+        id: "course-7-6",
+        title: "넷플릭스 - 영화 추천 알고리즘 & 성장 과정!",
+        thumbnailUrl: "https://damon.im/content/images/size/w1200/2024/05/netflix-movie-recommendation-algorithm-business-model.jpeg",
+        landingUrl: "https://damon.im/netflix-movie-recommendation-algorithm-business-model/"
       }
     ]
   },
