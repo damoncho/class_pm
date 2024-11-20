@@ -8,6 +8,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { curriculumData } from '@/data/curriculum_obsidian'
 import Header from "@/components/header"
 import Footer from "@/components/footer"
+import { Button } from "@/components/ui/button" // Button 컴포넌트 수정
 
 export default function StructuredCurriculum() {
   const [expandedSections, setExpandedSections] = useState<string[]>(curriculumData.map(section => section.id))
@@ -28,6 +29,13 @@ export default function StructuredCurriculum() {
           <div className="container mx-auto text-center px-4">
             <h1 className="text-4xl font-bold mb-6">Obsidian 온라인 클래스</h1>
             <p className="text-xl max-w-2xl mx-auto">온라인 클래스는 <span className="bg-yellow-200 text-black p-1 rounded">오프라인 수강생 대상으로 무료 공개</span>합니다.</p>
+            <div className="my-4">
+              <Link href="https://damon.im/pkm-class/">
+                <Button size="lg">
+                  옵시디언 오프라인 클래스 안내
+                </Button>
+              </Link>
+            </div>
           </div>
         </section>
 
