@@ -21,7 +21,7 @@ export default function HomePage() {
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12">
               <Card className="overflow-hidden">
-                <Image src="/img/class_cover.png" alt="pm class" width={400} height={200} className="w-full h-64 object-cover" />
+              <Image src="/img/class_cover.png" alt="pm class" width={400} height={200} className="w-full h-48 object-cover" />
                 <CardHeader>
                   <CardTitle className="text-2xl">PM/기획 클래스</CardTitle>
                 </CardHeader>
@@ -35,7 +35,7 @@ export default function HomePage() {
                 </CardFooter>
               </Card>
               <Card className="overflow-hidden">
-                <Image src="/img/obsidian_info.png" alt="obsidian class" width={400} height={200} className="w-full h-64 object-cover" />
+              <Image src="/img/obsidian_info.png" alt="obsidian class" width={400} height={200} className="w-full h-48 object-cover" />
                 <CardHeader>
                   <CardTitle className="text-2xl">옵시디언 클래스</CardTitle>
                 </CardHeader>
