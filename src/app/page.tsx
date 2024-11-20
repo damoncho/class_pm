@@ -26,7 +26,7 @@ export default function HomePage() {
                   <CardTitle className="text-2xl">PM/기획 클래스</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="mb-4">PM/기획자 직무에서 필수적인 지식을 배울 수 있습니다.</p>
+                  <p className="mb-4">PM/기획자 직무에서 참고할 수 있는 필수적인 지식을 배울 수 있습니다.</p>
                 </CardContent>
                 <CardFooter className='flex'>
                   <Link href="/pm" className='flex-grow'>
