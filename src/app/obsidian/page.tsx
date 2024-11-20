@@ -76,6 +76,9 @@ export default function StructuredCurriculum() {
               </AccordionItem>
             ))}
           </Accordion>
+           <div className="flex justify-center items-center py-8">
+            <p className="text-xl max-w-2xl text-center">50여개의 클래스가 업데이트 될 예정입니다.</p>
+          </div>
         </div>
       </main>
       <Footer />
