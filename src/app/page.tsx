@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import Image from 'next/image'
 import Header from "@/components/header"
 
 export default function HomePage() {
@@ -12,7 +13,7 @@ export default function HomePage() {
         <section className="bg-muted py-24">
           <div className="container mx-auto text-center px-4">
             <h1 className="text-5xl font-bold mb-6">데이먼의 PM 일지 - 온라인 클래스</h1>
-            <p className="text-xl max-w-2xl mx-auto">'PM/기획'과 '개인지식관리' 영역의 실무 중심의 강의를 만나보세요!</p>
+            <p className="text-xl max-w-2xl mx-auto">&apos;PM/기획&apos;과 &apos;개인지식관리&apos; 영역의 실무 중심의 강의를 만나보세요!</p>
           </div>
         </section>
 
@@ -20,7 +21,7 @@ export default function HomePage() {
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12">
               <Card className="overflow-hidden">
-                <img src="/img/class_cover.png?height=200&width=400" alt="pm class" className="w-full h-64 object-cover" />
+                <img src="/img/class_cover.png" alt="pm class" width={400} height={200} className="w-full h-64 object-cover" />
                 <CardHeader>
                   <CardTitle className="text-2xl">PM/기획 클래스</CardTitle>
                 </CardHeader>
@@ -34,7 +35,7 @@ export default function HomePage() {
                 </CardFooter>
               </Card>
               <Card className="overflow-hidden">
-                <img src="/img/obsidian_info.png?height=200&width=400" alt="obsidian class" className="w-full h-64 object-cover" />
+                <img src="/img/obsidian_info.png" alt="obsidian class" width={400} height={200} className="w-full h-64 object-cover" />
                 <CardHeader>
                   <CardTitle className="text-2xl">옵시디언 클래스</CardTitle>
                 </CardHeader>
