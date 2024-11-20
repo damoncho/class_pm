@@ -7,6 +7,7 @@ import { Card, CardTitle } from "@/components/ui/card"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { curriculumData } from '@/data/curriculum_obsidian'
 import Header from "@/components/header"
+import Footer from "@/components/footer"
 
 export default function StructuredCurriculum() {
   const [expandedSections, setExpandedSections] = useState<string[]>(curriculumData.map(section => section.id))
@@ -77,6 +78,7 @@ export default function StructuredCurriculum() {
           </Accordion>
         </div>
       </main>
+      <Footer />
     </div>
   )
 }

@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import Image from 'next/image'
 import Header from "@/components/header"
+import Footer from "@/components/footer"
 
 export default function HomePage() {
   return (
@@ -53,11 +54,7 @@ export default function HomePage() {
         </section>
       </main>
 
-      <footer className="bg-background py-6 border-t">
-        <div className="container mx-auto text-center text-muted-foreground">
-          &copy; 2024 데이먼의 PM 일지. All rights reserved.
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }
