@@ -1,5 +1,5 @@
 module.exports = {
   images: {
-    domains: ['damon.im'],
+    domains: ['damon.im', 'i.vimeocdn.com'],
   },
 };
