@@ -23,7 +23,7 @@ export const curriculumData = [
     courses: [
       {
         id: "course-2-1",
-        title: "모바일 퀵 캡쳐 telegram-sync",
+        title: "모바일 퀵 캡쳐 Telegram Sync",
         thumbnailUrl: "https://i.vimeocdn.com/video/1952803589-c1612cd113a78176da9ebc4b01c6c374c06f0e48c323a70b036935a850d4be61-d_300x169?r=pad",
         landingUrl: "https://damon.im/obsidian-class-2-1/"
       },
