@@ -17,4 +17,16 @@ export const curriculumData = [
       }
     ]
   },
+  {
+    id: "section-2",
+    title: "Obsidian 플러그인",
+    courses: [
+      {
+        id: "course-2-1",
+        title: "모바일 퀵 캡쳐 telegram-sync",
+        thumbnailUrl: "https://i.vimeocdn.com/video/1952803589-c1612cd113a78176da9ebc4b01c6c374c06f0e48c323a70b036935a850d4be61-d_300x169?r=pad",
+        landingUrl: "https://damon.im/obsidian-class-2-1/"
+      },
+    ]
+  }
 ];
