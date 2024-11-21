@@ -28,7 +28,9 @@ export default function StructuredCurriculum() {
       <section className="py-24">
           <div className="container mx-auto text-center px-4">
             <h1 className="text-4xl font-bold mb-6">Obsidian 온라인 클래스</h1>
-            <p className="text-xl max-w-2xl mx-auto">온라인 클래스는 <span className="bg-yellow-200 text-black p-1 rounded">오프라인 수강생 대상으로 무료 공개</span>합니다.</p>
+            <p className="text-xl max-w-2xl mx-auto">
+            온라인 클래스는 <span className="bg-yellow-200 text-black p-1 rounded inline-block" style={{ lineHeight: '0.1', padding: '0.1em 0.2em 0.6em 0.2em', verticalAlign: 'baseline' }}>오프라인 수강생 대상으로 무료 공개</span>합니다.
+            </p>
             <div className="my-4">
               <Link href="https://damon.im/pkm-class/">
                 <Button size="lg">

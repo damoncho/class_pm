@@ -14,7 +14,7 @@ export default function HomePage() {
         <section className="bg-muted py-24">
           <div className="container mx-auto text-center px-4">
             <h1 className="text-5xl font-bold mb-6">데이먼의 PM 일지 - 온라인 클래스</h1>
-            <p className="text-xl max-w-2xl mx-auto"><span className="bg-yellow-200 text-black p-1 rounded">PM/기획</span>과 <span className="bg-[#D3FFA3] text-black p-1 rounded">개인지식관리</span> 분야의 핵심 강의를 만나보세요!</p>
+            <p className="text-xl max-w-2xl mx-auto"><span className="bg-yellow-200 text-black p-1 rounded inline-block" style={{ lineHeight: '0.1', padding: '0.1em 0.2em 0.6em 0.2em', verticalAlign: 'baseline' }}>PM/기획</span>과 <span className="bg-[#D3FFA3] text-black p-1 rounded inline-block" style={{ lineHeight: '0.1', padding: '0.1em 0.2em 0.6em 0.2em', verticalAlign: 'baseline' }}>개인지식관리</span> 분야의 핵심 강의를 만나보세요!</p>
           </div>
         </section>
 
