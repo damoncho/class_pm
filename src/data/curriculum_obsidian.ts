@@ -11,7 +11,7 @@ export const curriculumData = [
       },
       {
         id: "course-1-2",
-        title: "디자인 테마 세팅",
+        title: "노트 앱 Bear 스타일로 디자인 테마 세팅하기",
         thumbnailUrl: "https://i.vimeocdn.com/video/1951857658-cdc5600b9080684b46860ae1eaa2e58a05032e6487a2b8a25b82be02ce85d001-d_300x169?r=pad",
         landingUrl: "https://damon.im/obsidian-class-1-2/"
       }
