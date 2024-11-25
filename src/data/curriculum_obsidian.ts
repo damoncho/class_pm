@@ -31,7 +31,7 @@ export const curriculumData = [
         id: "course-2-2",
         title: "Journal Review - 일주일전, 1개월전, 1년전 노트 돌아보기",
         thumbnailUrl: "https://i.vimeocdn.com/video/1954126599-eeae88fe5aab4267578bc09cbff6a709e7c53cb1ec56d218eb80f6d19ab9f24a-d_300x169?r=pad",
-        landingUrl: "https://damon.im/obsidian-class-2-1/"
+        landingUrl: "https://damon.im/obsidian-class-2-2/"
       },
     ]
   }
