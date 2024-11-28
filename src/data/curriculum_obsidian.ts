@@ -14,6 +14,12 @@ export const curriculumData = [
         title: "노트 앱 Bear 스타일로 디자인 테마 세팅하기",
         thumbnailUrl: "https://i.vimeocdn.com/video/1951857658-cdc5600b9080684b46860ae1eaa2e58a05032e6487a2b8a25b82be02ce85d001-d_300x169?r=pad",
         landingUrl: "https://damon.im/obsidian-class-1-2/"
+      },
+      {
+        id: "course-1-3",
+        title: "데일리노트로 일상을 기록하고 회고하기(Calendar,Outliner 플러그인)",
+        thumbnailUrl: "https://i.vimeocdn.com/video/1955508779-b4c607459da4c64d231b4147b69ed5da01d1a8186fe74e93f355acc5a3ee4d21-d_300x169?r=pad",
+        landingUrl: "https://damon.im/obsidian-class-1-3/"
       }
     ]
   },
